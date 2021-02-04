@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+a{
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+@import "./scss/slider";
+@import "./scss/navigation";

@@ -1,0 +1,36 @@
+header{
+    background-color: #16a085;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    span{
+        color: white;
+        cursor: pointer;
+    }
+}
+
+aside{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999999;
+    right: 0;
+    background-color: lighten(#16a085 , 7);
+    transition-timing-function: ease-in-out;
+    transition: 0.2s;
+    transform: translateX(325px);
+    
+    ul{
+        list-style: none;
+        padding: 25px;
+        li{
+            text-align: center;
+            margin: 50px 0;
+        }
+    }
+}
+
+.show{
+    transform: translateX(0px);
+}
+
